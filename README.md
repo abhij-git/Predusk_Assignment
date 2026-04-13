@@ -150,9 +150,6 @@ cd backend && PYTHONPATH=. pytest tests/ -q
 
 See [`samples/`](samples/): example uploads and [`samples/export_finalized.example.json`](samples/export_finalized.example.json).
 
-## Demo video
-
-Record a **3–5 minute** screen capture showing: upload → live progress on job detail → edit JSON → finalize → export. Upload the video to your preferred host and link it from your submission / this README.
 
 ## AI tools disclosure
 
