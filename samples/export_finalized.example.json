@@ -1,22 +1,27 @@
-[
-  {
-    "job_id": 1,
-    "document_id": 1,
+{
+  "title": "ACME Corp Invoice #9921",
+  "status": "extracted",
+  "summary": "ACME Corp Invoice #9921\nBill To: Example Client LLC\nTotal Due: $1,250.00\nLine items: consulting services — Q1 review\n\nThank you for your business.",
+  "category": "invoice",
+  "metadata": {
     "filename": "sample_invoice.txt",
-    "finalized_at": "2026-04-12T12:00:00+00:00",
-    "result": {
-      "title": "ACME Corp Invoice #9921",
-      "category": "invoice",
-      "summary": "ACME Corp Invoice #9921\nBill To: Example Client LLC\nTotal Due: $1,250.00…",
-      "extracted_keywords": ["invoice", "total", "bill", "line", "items"],
-      "status": "extracted",
-      "metadata": {
-        "filename": "sample_invoice.txt",
-        "mime_type": "text/plain",
-        "size_bytes": 120,
-        "detected_extension": ".txt",
-        "parsed_char_count": 120
-      }
-    }
-  }
-]
+    "mime_type": "text/plain",
+    "size_bytes": 149,
+    "parsed_char_count": 147,
+    "detected_extension": ".txt"
+  },
+  "extracted_keywords": [
+    "acme",
+    "corp",
+    "invoice",
+    "bill",
+    "example",
+    "client",
+    "total",
+    "line",
+    "items",
+    "consulting",
+    "services",
+    "review"
+  ]
+}
