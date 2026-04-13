@@ -1,0 +1,4 @@
+Jane Doe — Software Engineer
+Experience: distributed systems, Python, PostgreSQL
+Education: BS Computer Science
+Skills: leadership, mentoring, curriculum design

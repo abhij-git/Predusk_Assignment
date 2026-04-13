@@ -1,0 +1,22 @@
+[
+  {
+    "job_id": 1,
+    "document_id": 1,
+    "filename": "sample_invoice.txt",
+    "finalized_at": "2026-04-12T12:00:00+00:00",
+    "result": {
+      "title": "ACME Corp Invoice #9921",
+      "category": "invoice",
+      "summary": "ACME Corp Invoice #9921\nBill To: Example Client LLC\nTotal Due: $1,250.00…",
+      "extracted_keywords": ["invoice", "total", "bill", "line", "items"],
+      "status": "extracted",
+      "metadata": {
+        "filename": "sample_invoice.txt",
+        "mime_type": "text/plain",
+        "size_bytes": 120,
+        "detected_extension": ".txt",
+        "parsed_char_count": 120
+      }
+    }
+  }
+]

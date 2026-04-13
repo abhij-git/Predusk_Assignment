@@ -1,0 +1,6 @@
+ACME Corp Invoice #9921
+Bill To: Example Client LLC
+Total Due: $1,250.00
+Line items: consulting services — Q1 review
+
+Thank you for your business.

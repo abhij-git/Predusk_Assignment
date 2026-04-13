@@ -1,0 +1,15 @@
+{
+  "name": "docflow",
+  "private": true,
+  "description": "Run API, Next.js, and Celery together for local development",
+  "scripts": {
+    "dev:api": "cd backend && PYTHONPATH=. python3 -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8000",
+    "dev:web": "cd frontend && npm run dev",
+    "dev:worker": "cd backend && PYTHONPATH=. python3 -m celery -A app.celery_app worker -l info",
+    "dev": "concurrently -n api,web,worker -c blue,green,magenta \"npm run dev:api\" \"npm run dev:web\" \"npm run dev:worker\"",
+    "postinstall": "cd frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
